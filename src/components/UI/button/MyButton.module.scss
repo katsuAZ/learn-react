@@ -1,0 +1,19 @@
+.myBtn {
+  padding: 5px 15px;
+  color: teal;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid teal;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:disabled {
+    opacity: 0.8;
+    cursor: default;
+  }
+  &:hover:not(:disabled) {
+    color: aliceblue;
+    background-color: teal;
+  }
+}
