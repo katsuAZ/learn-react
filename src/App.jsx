@@ -17,7 +17,7 @@ function App() {
     async function fetchPosts() {
         console.log("getting data")
         const response = await axios.get('https://jsonplaceholder.typicode.com/posts');
-        console.log(response);
+        setPosts(response.data);
     }
 
     const createPost = (newPost) => {
