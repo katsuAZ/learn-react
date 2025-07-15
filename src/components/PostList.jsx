@@ -1,6 +1,5 @@
 import React from 'react';
 import PostItem from "./PostItem.jsx";
-
 const PostList = ({posts, title, remove}) => {
 
     if (!posts.length) {
