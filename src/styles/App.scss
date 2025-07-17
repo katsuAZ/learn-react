@@ -5,6 +5,12 @@
 }
 
 #root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.posts__wrapper {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
@@ -59,5 +65,18 @@
     border: 2px solid orange;
     background-color: orange;
     font-weight: bold;
+  }
+}
+
+.navbar {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background: lightgray;
+
+  &__links {
+    margin-left: auto;
   }
 }
