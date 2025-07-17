@@ -39,3 +39,25 @@
     }
   }
 }
+
+.page {
+  &__wrapper {
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  margin: 0 5px;
+  padding: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid teal;
+  cursor: pointer;
+
+  &__current {
+    border: 2px solid orange;
+    background-color: orange;
+    font-weight: bold;
+  }
+}
